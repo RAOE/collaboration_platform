@@ -1,3 +1,4 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 /* You can add global styles to this file, and also import other style files */
 html,
 body,
@@ -14,15 +15,15 @@ app-root,
 }
 
 main {
-    flex: auto;
+    flex: 1;
 }
 
 header {
-    background-color: green;
+    // background-color: green;
 }
 
 footer {
-    background-color: blue;
+    // background-color: blue;
 }
 
 main div {
@@ -35,4 +36,7 @@ main div {
 .box {
     width: 300px;
     height: 300px;
+}
+mat-sidenav{
+    background-color: red;
 }
